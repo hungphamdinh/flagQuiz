@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a6"
+    tools:context=".View.activity_level">
+    <RelativeLayout
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="100dp"
+        android:elevation="4dp"
+        android:padding="20dp"
+        android:background="@drawable/goccanh"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEasy"
+            android:text="Easy"
+            android:background="#999900"
+            android:textSize="30dp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMedium"
+            android:text="Medium"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/txtEasy"
+            android:background="#9999FF"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHard"
+            android:background="#CC00CC"
+            android:layout_below="@id/txtMedium"
+            android:text="Hard"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

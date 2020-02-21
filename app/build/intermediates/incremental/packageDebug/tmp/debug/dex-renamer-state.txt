@@ -1,0 +1,4 @@
+#Tue Feb 18 13:32:51 ICT 2020
+base.0=F\:\\Android\\Mys\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
